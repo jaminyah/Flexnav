@@ -72,10 +72,13 @@ body {
     display: none;
 }
 
-.active {
-    display: block;
+#chkToggle {
+    display: none;
 }
 
+#chkToggle:checked + ul.main-nav {
+    display: block;
+}
 
 
 
